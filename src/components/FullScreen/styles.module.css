@@ -1,0 +1,13 @@
+.button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  fill: white;
+  display: flex;
+  justify-content: center;
+}
+.button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}

@@ -1,0 +1,25 @@
+.point {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+.buttons button {
+  font-weight: bold;
+}
+.buttonPlus3 {
+  background-color: green;
+}
+.buttonPlus1 {
+  background-color: blue;
+}
+.buttonPlus2 {
+  background-color: grey;
+}
+.buttonMinus1 {
+  background-color: red;
+}

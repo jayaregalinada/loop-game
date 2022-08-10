@@ -1,0 +1,47 @@
+.item {
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+}
+.itemActive {
+  animation-name: active;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes active {
+  from {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  }
+
+  to {
+    transform: scale(1.01);
+    box-shadow: 0 0 6px 3px rgba(255, 255, 255, 1);
+  }
+}
+
+.items {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
+.groupName {
+  margin: 0.5rem 0;
+}
+.groups {
+  display: flex;
+  gap: 2rem;
+}
+.groupA {
+  background-color: #264653;
+}
+.groupB {
+  background-color: #e76f51;
+}
+.groupC {
+  background-color: #e9c46a;
+}

@@ -1,8 +1,20 @@
 #root {
+  width: 100%;
+  padding: 2rem;
+}
+.App {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+.players {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+.boxes {
+  display: flex;
+  gap: 2rem;
 }
 
 .logo {
@@ -38,4 +50,18 @@
 
 .read-the-docs {
   color: #888;
+}
+
+textarea {
+  margin-top: 1rem;
+  width: 100%;
+  resize: vertical;
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.generate-players {
+  margin-top: 0.5rem;
 }
